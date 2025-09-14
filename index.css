@@ -118,7 +118,7 @@ body{
 .content-left{
     text-align: center;
     animation: slideFromLeft 1s ease forwards;
-    opacity:0;
+    opacity: 0;
     margin-bottom: 4%;
 }
 
