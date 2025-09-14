@@ -117,24 +117,11 @@ body{
 
 .content-left{
     text-align: center;
-/*     animation: slideFromLeft 1s ease forwards;
-    opacity: 0; */
+
     margin-bottom: 4%;
 }
 
-@keyframes slideFromLeft {
-    
-   0%{
-    opacity: 0;
-    transform: translate(-100%);
-   }
 
-   100%{
-    opacity: 1;
-    transform: translate(0);
-   } 
-
-}
 
 .section-label{
     font-size: 1.15rem;
@@ -272,6 +259,20 @@ body{
     align-items: center;
     margin-top: 2rem; */
     animation: slideFromLeft 1s ease forwards;
+}
+
+@keyframes slideFromLeft {
+    
+   0%{
+    opacity: 0;
+    transform: translate(-100%);
+   }
+
+   100%{
+    opacity: 1;
+    transform: translate(0);
+   } 
+
 }
 
 .company-grid{
@@ -692,6 +693,7 @@ ul{
     padding-top: 1.15rem;
     border-top: 1px solid #e5e7eb;
 }
+
 
 
 
