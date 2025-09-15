@@ -258,7 +258,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 2rem; */
-    animation: slideFromLeft 3s ease forwards;
+    animation: slideFromLeft 2s ease forwards;
 }
 
 @keyframes slideFromLeft {
@@ -693,6 +693,7 @@ ul{
     padding-top: 1.15rem;
     border-top: 1px solid #e5e7eb;
 }
+
 
 
 
